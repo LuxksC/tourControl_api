@@ -10,9 +10,9 @@ provider:
     DATABASE_URL: ${env:DATABASE_URL}
 
 functions:
-  hello:
-    handler: handler.status
+  status:
+    handler: src/functions/status.handler
     events:
       - httpApi:
-          path: /
-          method: get
+          path: /status
+          method: GET

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/LuxksC/tourControl_api#readme",
   "devDependencies": {
     "@types/aws-lambda": "^8.10.155",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.7.2",
     "dotenv": "^17.2.3",
     "drizzle-kit": "^0.31.5",
@@ -28,6 +29,7 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
-    "drizzle-orm": "^0.44.6"
+    "drizzle-orm": "^0.44.6",
+    "jsonwebtoken": "^9.0.2"
   }
 }
