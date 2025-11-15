@@ -8,6 +8,13 @@
       "when": 1760308324749,
       "tag": "0000_condemned_goblin_queen",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1763243473566,
+      "tag": "0001_young_nextwave",
+      "breakpoints": true
     }
   ]
 }
